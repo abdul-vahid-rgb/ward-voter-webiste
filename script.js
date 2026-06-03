@@ -1,5 +1,4 @@
 import Fuse from "https://cdn.jsdelivr.net/npm/fuse.js@7.1.0/dist/fuse.min.mjs"
-import loadCSS from "./utils/loadCSS.js"
 import { Home } from "./components/Home.js"
 import { SearchBar } from "./components/SearchBar.js"
 import { Table } from "./components/Table.js"
@@ -7,8 +6,6 @@ import { Error } from "./components/Error.js"
 import { TableBody } from "./components/TableBody.js"
 import { SingleVoter } from "./components/SingleVoter.js"
 import { voterDetails } from "./voterdata.js"
-
-loadCSS("./output.css")
 
 const root = document.getElementById("root")
 router()
